@@ -1,19 +1,20 @@
 {
     "name": "allen/dlsite",
     "description": "A package to extract details from dlsite by work id",
-    "authors": [
-        {
-            "name": "Allen",
-            "email": "allen@example.com"
-        }
-    ],
+    "type": "flarum-extension",
     "license": "MIT",
-    "require": {
-        "php": ">=7.0"
-    },
     "autoload": {
         "psr-4": {
-            "allen\\dlsite\\": "src/"
+            "Allen\\Dlsite\\": "src/"
         }
+    },
+    "authors": [
+        {
+            "name": "Allen"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
     }
 }
