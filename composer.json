@@ -1,8 +1,17 @@
 {
     "name": "allen/dlsite",
-    "description": "Package for retrieving work details from dlsite.com",
+    "description": "A package to extract details from dlsite by work id",
     "type": "library",
-    "lisence": "MIT",
+    "authors": [
+        {
+            "name": "Allen",
+            "email": "allen@example.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
     "autoload": {
         "psr-4": {
             "allen\\dlsite\\": "src/"
