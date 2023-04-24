@@ -1,7 +1,6 @@
 {
     "name": "allen/dlsite",
     "description": "A package to extract details from dlsite by work id",
-    "type": "library",
     "authors": [
         {
             "name": "Allen",
