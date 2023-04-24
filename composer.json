@@ -1,0 +1,11 @@
+{
+    "name": "allen/dlsite",
+    "description": "Package for retrieving work details from dlsite.com",
+    "type": "library",
+    "lisence": "MIT",
+    "autoload": {
+        "psr-4": {
+            "allen\\dlsite\\": "src/"
+        }
+    }
+}
