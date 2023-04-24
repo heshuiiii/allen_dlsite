@@ -1,0 +1,14 @@
+{
+    "name": "allen/dlsite",
+    "description": "A web scraper for DLSite product details",
+    "type": "library",
+    "lisence": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Allen\\Dlsite\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0"
+    }
+}
